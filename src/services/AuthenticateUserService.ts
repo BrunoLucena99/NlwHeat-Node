@@ -75,7 +75,6 @@ class AuthenticateUserService {
 	
 			return { token, user };
 		} catch (err) {
-			console.log(err)
 			throw err;
 		}
 	}
